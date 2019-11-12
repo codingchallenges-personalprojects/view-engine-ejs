@@ -1,0 +1,172 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ------------ Header  ---------------- */
+/* ------------------------------------- */ 
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.icon {
+    /* color: white; */
+    font-size: 5rem;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 1rem; 
+   
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    /* color: white; */
+    font-family: 'Mansalva', cursive;
+}
+
+.navbar {
+    float: right;
+}
+
+.border {
+    border-bottom: 2px solid black;
+}
+
+/* ----------------- homepage -------------- */
+/* ------------------------------------- */ 
+
+.title {
+    position: absolute;
+    left: 60%;
+    top:20%;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.294), rgba(13, 221, 13, 0.15)), url(image/pic-1.jpg);
+    height: 90vh;
+    background-size: cover;
+    margin-bottom: 4rem;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+/* ----------------- Gallery --------------- */
+.gallery {
+    margin-bottom: 5rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.wrapper > div img {
+    max-width: 100%;
+}
+
+.gallery-title {
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+}
+
+
+/* ------------flyer--------------- */
+/* ------------------------------------- */ 
+
+.wrapper-flyer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.wrapper-flyer > div img {
+    max-width: 100%;    
+}
+
+.flyer-par {
+    font-family: 'Mansalva', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.flyer {
+    font-family: 'Mansalva', cursive;
+    margin-bottom: 5rem;
+}
+
+/* ------------about us---------------- */
+/* ------------------------------------- */ 
+
+.about-text {
+    margin-bottom: 8rem;;
+}
+
+.about-color {
+    font-family: 'Mansalva', cursive;
+    font-size: 1.5rem;
+}
+
+/* -------------- Thank you---------------- */
+/* ---------------------------------------- */
+.thank-you {
+    margin-bottom: 24rem;;
+}
+
+/* -------------- footer---------------- */
+/* ------------------------------------- */
+
+footer {
+    color: white;
+    font-family: 'Mansalva', cursive;
+    font-size: 1rem;
+    text-align: center;
+    background: purple;
+    padding: 1rem;
+    clear: both;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+}
+
+footer a {
+    color: #fff;
+}
+
+.contact-form input {
+    display: block;
+    margin:auto;
+    border-radius: 5px;
+    padding: 8px;
+    border-style: solid;
+    border-color: purple;
+    width: 15%;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.contact-form input::placeholder {
+    color: purple;
+    opacity: .5;
+}
+
+.contact-form button {
+    width: 8%;
+    border-radius: 5px;
+    padding: 8px;
+    background: purple;
+    color: #fff;
+    border-style: solid;
+    border-color: purple;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 1rem;;
+}

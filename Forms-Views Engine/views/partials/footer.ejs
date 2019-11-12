@@ -1,0 +1,22 @@
+
+<form autocomplete="off" action="/contact-form" method="POST" class="contact-form">
+        <input class="name" type="text" name="name" placeholder="your name ..."> 
+        <% if (error.name) { %>
+            <p><%= error.name.msg %> </p>
+        <%} %>
+        <input class="email" type="email" name="email" placeholder="your email ...">
+        <% if (error.email) { %>
+            <p><%= error.email.msg %> </p>
+        <%} %>
+        <button class="submit-btn" type="submit">Submit</button>
+</form>
+
+<footer class="container" >       
+    <ul>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a> </li>
+        <li> <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> </a> </li>
+        <li> <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> </li>
+        <li> <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a> </li>
+    </ul>
+    @2019 made by: Mitra
+</footer>

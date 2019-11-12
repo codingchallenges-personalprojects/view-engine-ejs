@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <script src="assets/form.js"></script>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <% include partials/nav.ejs %>
+    <div class="container thank-you">
+        <h1>Thank you for registering in our website</h1>
+        <p> Your name is <%= name %></p>
+        <p> Your email is <%= email %></p>
+    </div>
+    <footer class="container" >       
+        <ul>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a> </li>
+            <li> <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> </a> </li>
+            <li> <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> </li>
+            <li> <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a> </li>
+        </ul>
+        @2019 made by: Mitra
+    </footer>
+</body>
+</html>
